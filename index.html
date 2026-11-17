@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mani Shankar Rastogi - Resume Website</title>
+    <!-- Linking external CSS file using relative path as taught in Module 3 & 4 -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Main wrapper div for layout styling and CSS Grid/Flexbox later -->
+    <div class="page-container">
+
+        <!-- Header Section: Name, Tagline, Contact Info, and Section Navigation -->
+        <header class="site-header" id="top">
+            <div class="header-content">
+                <h1>Mani Shankar Rastogi</h1>
+                <p class="tagline">Entrepreneur, Writer &amp; Undergraduate Student</p>
+                
+                <!-- Contact details using anchor tags and span inline elements -->
+                <p class="contact-bar">
+                    <span>Lucknow, India</span> | 
+                    <a href="https://www.linkedin.com/in/mani rastogi" target="_blank">LinkedIn</a> | 
+                    <a href="tel:+91 9598802424">+91 9598802424</a> | 
+                    <a href="mailto:manirastogi58@gmail.com">manirastogi58@gmail.com</a>
+                </p>
+            </div>
+
+            <!-- Navigation Bar to jump between sections on the single page -->
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#summary">Summary</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Work Experience</a></li>
+                    <li><a href="#projects-books">Ventures &amp; Books</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <hr>
+
+        <!-- Main Content Area: Holds all primary sections of the resume -->
+        <main class="main-content">
+
+            <!-- Section 1: Professional Summary -->
+            <section id="summary" class="resume-section">
+                <h2>Professional Summary</h2>
+                <p>
+                    Entrepreneur and writer dedicated to building transformative solutions at the intersection of 
+                    <strong>mental health, education, and technology</strong>. Founder of a mental health startup 
+                    focused on adolescent well-being, leveraging lived experience and philosophical insight to drive 
+                    social impact.
+                </p>
+            </section>
+
+            <hr>
+
+            <!-- Section 2: Education History (Using Table for structured tabular data as taught in Lecture 3.12 & 3.22) -->
+            <section id="education" class="resume-section">
+                <h2>Education</h2>
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Year</th>
+                                <th>Degree / Qualification</th>
+                                <th>Institution / University</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2026 - 2029</td>
+                                <td>Bachelor of Business Administration (Digital Business &amp;Entrepreneurship)</td>
+                                <td>
+                                    <a href="https://www.iimb.ac.in" target="_blank">Indian Institute of Management, Bangalore (IIMB)</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2026 - 2029</td>
+                                <td>Bachelor of Business Administration (Business Analytics) &amp;</td>
+                                <td>Institute of Management Science, University of Lucknow</td>
+                            </tr>
+                            
+                            <tr>
+                                <td>2023 - 2024</td>
+                                <td>Class 12th (Senior Secondary)</td>
+                                <td>St Francis' College</td>
+                            </tr>
+                            <tr>
+                                <td>2021 - 2022</td>
+                                <td>Class 10th (Secondary)</td>
+                                <td>St Francis' College</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Section 3: Work Experience (Using <article> tags for individual internships as recommended in Lecture 3.22) -->
+            <section id="experience" class="resume-section">
+                <h2>Work Experience</h2>
+                
+                <div class="experience-grid">
+                    <!-- Internship 1 -->
+                    <article class="card">
+                        <div class="card-header">
+                            <h3>Aptitude Backend Role Internship</h3>
+                            <span class="badge">Nov 2025 - Jan 2026</span>
+                        </div>
+                        <p class="organization"><em>Cospire</em> &bull; Virtual</p>
+                        <ul>
+                            <li>Handled the Backend role for Aptitude and curated structured practice questions for students.</li>
+                            <li>Drafted and designed study documents using Canva to ensure high readability and visual quality.</li>
+                            <li>Ensured a smooth flow of study materials for enrolled students, helping guide them to their dream institutions.</li>
+                        </ul>
+                    </article>
+
+                    <!-- Internship 2 -->
+                    <article class="card">
+                        <div class="card-header">
+                            <h3>Business Development And Execution Internship</h3>
+                            <span class="badge">Oct 2025 - Jan 2026</span>
+                        </div>
+                        <p class="organization"><em>NoCage (krrio)</em> &bull; Virtual</p>
+                        <ul>
+                            <li>Assigned tasks to the interning team and communicated operational details according to project needs.</li>
+                            <li>Maintained a continuous workflow across team members to meet execution timelines.</li>
+                            <li>Researched the SaaS market and contributed actionable insights toward business development.</li>
+                        </ul>
+                    </article>
+
+                    <!-- Internship 3 -->
+                    <article class="card">
+                        <div class="card-header">
+                            <h3>Team Lead &amp; Growth Intern</h3>
+                            <span class="badge">Sep 2025 - Oct 2025</span>
+                        </div>
+                        <p class="organization"><em>ConnectKaro</em> &bull; Virtual</p>
+                        <ul>
+                            <li>Led a team of 4 interns focused on outreach, onboarding, and user growth.</li>
+                            <li>Achieved more than a dozen conversions collectively across content creators and college societies for various segments of the app.</li>
+                        </ul>
+                    </article>
+
+                    <!-- Internship 4 -->
+                    <article class="card">
+                        <div class="card-header">
+                            <h3>Influencer Researcher Internship</h3>
+                            <span class="badge">Jun 2024 - Aug 2024</span>
+                        </div>
+                        <p class="organization"><em>L'utopia Magazine</em> &bull; Virtual</p>
+                        <ul>
+                            <li>Researched and analyzed over 100 social media influencers' Instagram pages.</li>
+                            <li>Curated over 1,000 interview questions for the magazine to ask featured influencers.</li>
+                            <li>Utilized ChatGPT to streamline workflows and gained practical experience in AI prompt optimization.</li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Section 4: Ventures, Publications & Projects (Fulfilling the Projects & Extracurriculars requirement in Lecture 3.22) -->
+            <section id="projects-books" class="resume-section">
+                <h2>Ventures, Publications &amp; Interests</h2>
+                
+                <div class="projects-grid">
+                    <article class="card">
+                        <h3>Adolescent Mental Health Startup</h3>
+                        <p class="organization"><em>Founder &amp; Entrepreneur</em></p>
+                        <p>
+                            Building transformative mental health and educational solutions tailored to adolescent well-being, 
+                            combining lived experience with philosophical and psychological frameworks to create lasting social impact.
+                        </p>
+                    </article>
+
+                    <article class="card">
+                        <h3>Published Author &amp; Literary Work</h3>
+                        <p class="organization"><em>Books &amp; Content Writing</em></p>
+                        <p>Author of two published titles exploring resilience, human nature, and personal transformation:</p>
+                        <ol>
+                            <li><strong>A Phoenix Rising From The Ashes</strong></li>
+                            <li><strong>The Fire Within</strong></li>
+                        </ol>
+                    </article>
+
+                    <article class="card">
+                        <h3>Research &amp; Core Interests</h3>
+                        <p class="organization"><em>Interdisciplinary Pursuits</em></p>
+                        <p>
+                            Passionate writer, researcher, and student deeply engaged in content writing, literature, 
+                            psychology, and philosophy.
+                        </p>
+                    </article>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Section 5: Skills Table (Fulfilling Lecture 3.22 suggestion of a Skills Table) -->
+            <section id="skills" class="resume-section">
+                <h2>Skills &amp; Competencies</h2>
+                <div class="table-container">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Skill Category</th>
+                                <th>Core Competencies &amp; Tools</th>
+                                <th>Application Area</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Business &amp; Leadership</strong></td>
+                                <td>Business Development, Team Leadership, SaaS Market Research, Growth &amp; Conversions</td>
+                                <td>ConnectKaro, NoCage (krrio) &amp; Startup Venture</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Content &amp; Research</strong></td>
+                                <td>Content Writing, Question Curation, Influencer Analysis, Book Authorship</td>
+                                <td>L'utopia Magazine, Cospire &amp; Published Books</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Digital Tools &amp; Web</strong></td>
+                                <td>Canva Document Design, AI Optimization (ChatGPT), HTML5 &amp; CSS3</td>
+                                <td>Study Material Design &amp; IIMB Web Development</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <hr>
+
+            <!-- Section 6: Contact Form (Applying Lecture 3.13 Forms with name and action attributes) -->
+            <section id="contact" class="resume-section">
+                <h2>Get In Touch</h2>
+                <p>Have a question, collaboration idea, or opportunity? Feel free to reach out using the form below:</p>
+                
+                <form action="manirastogi58@gmail.com" method="get" class="contact-form">
+                    <div class="form-group">
+                        <label for="visitor-name">Your Name:</label><br>
+                        <input type="text" id="visitor-name" name="username" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="visitor-email">Your Email:</label><br>
+                        <input type="email" id="visitor-email" name="email" placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inquiry-type">Reason for Connecting:</label><br>
+                        <select id="inquiry-type" name="reason">
+                            <option value="entrepreneurship">Startup / Entrepreneurship Collaboration</option>
+                            <option value="internship">Internship / Business Opportunity</option>
+                            <option value="writing">Writing / Book Inquiry</option>
+                            <option value="general">General Message</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="visitor-message">Message:</label><br>
+                        <textarea id="visitor-message" name="body" rows="4" placeholder="Write your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </section>
+
+        </main>
+
+        <hr>
+
+        <!-- Footer Section: Closing notes and quick links -->
+        <footer class="site-footer">
+            <p>&copy; 2026 Mani Shankar Rastogi. Built with HTML5 &amp; CSS3 as part of the IIM Bangalore BBA DBE Website Development Course.</p>
+            <p><a href="#top">Back to Top &uarr;</a></p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
